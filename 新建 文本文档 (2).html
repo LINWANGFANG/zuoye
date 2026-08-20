@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上网导航</title>
+    <style>
+        /* 重置默认边距 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1980a8;
+            font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .w {
+            width: 100%;
+            background-color: #dda357;
+            border-radius: 12px;
+            padding: 14px 0;
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .w:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+        }
+
+        .w a {
+            display: block;
+            color: #1a2a3a;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            letter-spacing: 1px;
+            padding: 4px 0;
+        }
+
+        .w a:hover {
+            color: #2c3e50;
+        }
+
+        .footer-note {
+            margin-top: 30px;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 13px;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="w">
+            <a href="https://cd.4.frp.one:38529/" target="_blank" rel="noopener noreferrer">上网1</a>
+        </div>
+        <div class="w">
+            <a href="https://hk-8.qwq.fan:58420/" target="_blank" rel="noopener noreferrer">上网2</a>
+        </div>
+        <div class="w">
+            <a href="https://hk-5.qwq.fan:45073" target="_blank" rel="noopener noreferrer">上网3</a>
+        </div>
+       <div class="w">
+            <a href="http://9b49d3f57727.ofalias.com:45374" target="_blank" rel="noopener noreferrer">上网4</a>
+        </div>
+    </div>
+
+</body>
+</html>
